@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sams cookies</title>
+ <link rel="stylesheet" href="style.css" />
+    <script>
+        function buy(item, price) {
+          alert(`You've selected ${item} for ₦${price.toLocaleString()}. Proceeding to checkout...`);
+        }
+      </script>
+</head>
+<body>
+    <h1>Sam's Cookies</h1>
+    <p class="spec">Welcome to Sam's Cookie Delight! We bake all the cookies you can imagine — and they're the best in town. In fact, even in my community, I’m known as the cookie queen!</p>
+    
+    <p class="spec">We open at <strong>7AM</strong> and close by <strong>11PM</strong>. Every first customer of the day gets <strong>one free cookie</strong> — yes, really!</p>
+    
+    <p class="spec">We sell delicious vanilla cookies — a pack of 15 costs <strong>₦4,000</strong> and the big size goes for <strong>₦4,500</strong>. We also offer chocolate, strawberry, lemon, and many more sweet flavors.</p>
+    
+    <p class="spec">Need delivery? We’ve got you! If your home is nearby, delivery is absolutely <strong>free</strong>.</p>
+    
+    <p class="spec">And it’s not just cookies — we also serve <strong>complimentary drinks</strong> and sprinkle love on every batch!</p>
+    
+<div class="pack">
+    <h2>Small Size</h2>
+    <p>There are 3 little chocolate cookies and two mint cookies.</p>
+    <p class="price">₦1,300</p>
+    <button onclick="buy('small size', 1300)">PAY</button>
+  </div>
+  
+  <div class="pack">
+    <h2>Jumbo Pack</h2>
+    <p>In the jumbo pack we have 4 medium-sized cookies.</p>
+    <p class="price">₦10,000</p>
+    <button onclick="buy('jumbo size', 10000)">PAY</button>
+  </div>
+  
+  <div class="pack">
+    <h2>Family Pack</h2>
+    <p>My family pack has 5 big cookies for your wonderful family.</p>
+    <p class="price">₦5,000</p>
+    <button onclick="buy('family pack', 5000)">PAY</button>
+  </div>
+  
+  <div class="pack">
+    <h2>Sam’s Surprise Pack</h2>
+    <p>We have family fun, decorate your cookies surprise, laugh all you want, taste time, compete with me.</p>
+    <p class="price">₦20,000</p>
+    <button onclick="buy('sams surprise pack', 20000)">PAY</button>
+  </div>
+  
+  <div class="watermark">This is a fake website. Done by Samantha, Primary 4. © 2025</div>
+
+</body>
+</html>
+ 
